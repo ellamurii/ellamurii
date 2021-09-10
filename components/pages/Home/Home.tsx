@@ -1,6 +1,6 @@
 import Main from "../../layouts/Main";
 
-const IndexPage = () => (
+const Home = () => (
   <Main title="Home">
     <div className="min-h-screen bg-gray-800 py-6 flex flex-col justify-center sm:py-12 ">
       <div className="relative py-3 sm:max-w-xl sm:mx-auto">
@@ -105,4 +105,4 @@ const IndexPage = () => (
   </Main>
 );
 
-export default IndexPage;
+export default Home;
