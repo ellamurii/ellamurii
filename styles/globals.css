@@ -1,0 +1,10 @@
+.border-blink {
+  animation: blink 0.75s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  50% {
+    @apply border-gray-100;
+  }
+}

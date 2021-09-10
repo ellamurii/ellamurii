@@ -6,9 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        sky: colors.sky,
-        cyan: colors.cyan,
+        primary: colors.violet,
+        secondary: colors.pink,
+        red: colors.red,
       },
+      fontFamily: {
+        'manrope': ['"Manrope"']
+      }
     },
   },
   variants: {
