@@ -1,12 +1,16 @@
 import Main from "../../layouts/Main";
 import randomWords from "random-words";
 import TypingGame from "../../common/TypingGame";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const RW_OPTIONS = { exactly: 25, join: " " };
 const Home = () => {
-  const [text, setText] = useState(randomWords(RW_OPTIONS));
+  const [text, setText] = useState("");
   const onNewGameHandler = () => setText(randomWords(RW_OPTIONS));
+
+  useEffect(() => {
+    setText(randomWords(RW_OPTIONS));
+  }, []);
 
   return (
     <Main title="Home">
