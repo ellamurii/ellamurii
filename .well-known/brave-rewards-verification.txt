@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: ellamurii.vercel.app
-Token: e95b23f8636b8bb4800177b80306f7581d11be67f7f073ca3535a4be4690bea2
